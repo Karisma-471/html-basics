@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+    margin: 0;
+}
+ 
+header {
+    background-color: #f30b1b;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+ 
+div {
+    display: flex;
+    flex: 1;
+}
+ 
+aside {
+    flex: 0 0 20%;
+    background-color: #f8d8e5;
+    padding: 10px;
+    text-align: center;
+    color: #0e0d0e;
+    
+ 
+    
+}
+ 
+h2{
+    margin-top: 200px;
+    padding: 60px;
+    text-align: center;
+}
+ 
+section {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    background-color: #0bbdee;
+}
+ 
+footer {
+    background-color: #f30918;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    
+}
